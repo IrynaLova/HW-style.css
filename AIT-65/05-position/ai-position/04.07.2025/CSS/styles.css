@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Savate:ital,wght@1,631&family=Sevillana&display=swap');
+* {
+    margin: 0;
+}
+body{
+    font-family: "Sevillana", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.list {
+    font-weight: 300;
+    border-style: solid;
+    border-color: cornflowerblue;
+    list-style: none;
+    margin: 200px 40px 20px 40px;
+    font-size: 24px;
+    padding: 40px;
+    height: 400px;
+    overflow-y: auto;
+}
+/*.list h2{
+    text-align:center ;
+}
+.list p {
+    text-align:center ;
+}*/
+.center {
+    text-align: center;
+}
+.header {
+    color: powderblue;
+    height: 500px;
+    background-image: url('https://virsone.com/wp-content/uploads/2024/04/AI-pracovni-trh-869x765.jpg');
+    margin: 0 0 20px 0;
+}
+h1 {
+    background-size: cover; /* Важно для масштабирования */
+    background-position: center bottom; /* Смещение фокуса вверх */
+    background-repeat: no-repeat; /* Предотвращаем повторение */
+}
+.ref{
+    margin: 10px 0 0 0;
+}
+.header {
+    color: powderblue;
+    height: 500px;
+    background-image: url('https://virsone.com/wp-content/uploads/2024/04/AI-pracovni-trh-869x765.jpg');
+    background-size: cover; /* Важно для масштабирования */
+    background-position: center bottom; /* Смещение фокуса вниз */
+    background-repeat: no-repeat; /* Предотвращаем повторение */
+    margin: 0 0 20px 0;
+}
+h1 {
+    padding-top: 270px;
+    font-size: 150px;
+}
+.list>p {
+    margin: 20px 0;
+}
+.box{
+    position: relative;
+}
+.left{
+    position: absolute;
+    left: 0;
+}
+.right {
+    position: absolute;
+    right: 0;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    background: #ecf0f2;
+    width: 100%;
+    text-align: center;
+}
+.left, .right{
+    width: 48%;
+}
+.ref{
+    margin: 10px 0 0 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li>p{
+    font-size: 20px;
+}
+
+li>h2{
+    font-size: 28px;
+}

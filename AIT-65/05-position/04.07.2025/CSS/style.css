@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    font-size: 30px;
+}
+header{
+    position: fixed;
+    top: 0;
+    /*right: 70%;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    width: 100%;
+    height: 150px;
+    padding: 30px;
+    background: rgb(0, 208, 255);
+    z-index: 1;
+}
+.cards-wrapper{
+    position: relative;
+    /*top: 0;*/
+    /*bottom: 0;*/
+    /*right: 100px;*/
+    width: 800px;
+    height: 800px;
+    padding: 20px;
+    margin: 250px 100px 100px;
+    background: rgb(171, 230, 230);
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.card-approach{
+   /* position: absolute;
+    top: 240px;
+    right: 240px;*/
+    background: rgb(198, 113, 113);
+}
+.card-team{
+    /*position: absolute;
+    top: 480px;
+    right: 480px;*/
+    background: rgb(192, 198, 113);
+    position: relative;
+    left: 200px;
+    bottom: 40px;
+}
+.card-focus{
+    /*position: absolute;
+    top: 20px;
+    right: 20px;*/
+    background: rgb(153, 214, 137);
+    position: relative;
+    bottom: 80px;
+}

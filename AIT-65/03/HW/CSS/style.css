@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Outer1\.1{
+    background-color: darkturquoise;
+    font-size: 20px;
+    color: yellow;
+    padding-left: 450px;
+    height: 60px;
+    width: 1450px;
+    padding-right: 20px;
+    border-bottom-width: 50px;
+    margin-left: 20px;
+}
+.Outer1 {
+    background-color: darkturquoise;
+    height: 200px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 100px;
+    padding-left: 250px;
+    padding-top: 150px;
+    border-top-width: 50px;
+}
+.Inner2{
+    background-color: limegreen;
+    width: 200px;
+    height: 0;
+    padding: 20px 50px 920px 40px;
+    margin: 20px;
+}
+.Outer2 {
+    background-color: pink;
+    height: 0;
+    padding: 20px 40px 35px 40px;
+    margin: 20px;
+}

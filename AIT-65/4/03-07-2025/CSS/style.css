@@ -1,0 +1,20 @@
+*{
+    margin: 20px;
+    padding: 0;
+}
+.Outer1{
+    background-color: darkturquoise;
+    height: 200px;
+    padding: 50px;
+}
+.Inner1{
+    background-color: limegreen;
+    width: 300px;
+    height: 100px;
+    margin: 30px 0 0 400px;
+}
+.Outer2{
+    background-color:  pink;
+    height: 200px;
+    padding: 50px;
+}
